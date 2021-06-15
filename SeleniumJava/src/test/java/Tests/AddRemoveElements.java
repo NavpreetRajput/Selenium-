@@ -45,7 +45,6 @@ public class AddRemoveElements {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
 		}
 		try {
 			Thread.sleep(5000);
