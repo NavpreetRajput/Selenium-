@@ -3,13 +3,13 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="Tests.AddRemoveElements">
+      <class name="TestUtils.BasicAuthorization">
         <methods>
           <include name="tearDown"/>
+          <include name="test1" invocation-numbers="0 1 2 3"/>
           <include name="setUp"/>
-          <include name="testingAB"/>
         </methods>
-      </class> <!-- Tests.AddRemoveElements -->
+      </class> <!-- TestUtils.BasicAuthorization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
