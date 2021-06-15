@@ -2,42 +2,42 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-12T21:12:36Z" name="Default suite" finished-at="2021-06-12T21:12:48Z" duration-ms="12521">
+  <suite started-at="2021-06-15T03:36:39Z" name="Default suite" finished-at="2021-06-15T03:37:21Z" duration-ms="42564">
     <groups>
     </groups>
-    <test started-at="2021-06-12T21:12:36Z" name="Default test" finished-at="2021-06-12T21:12:48Z" duration-ms="12521">
-      <class name="Tests.ABTesting">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.ABTesting@543295b0]" started-at="2021-06-12T17:12:36Z" name="setUp" finished-at="2021-06-12T17:12:42Z" duration-ms="6658" status="PASS">
+    <test started-at="2021-06-15T03:36:39Z" name="Default test" finished-at="2021-06-15T03:37:21Z" duration-ms="42564">
+      <class name="Tests.AddRemoveElements">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.AddRemoveElements@543295b0]" started-at="2021-06-14T23:36:39Z" name="setUp" finished-at="2021-06-14T23:36:45Z" duration-ms="6518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testingAB()[pri:0, instance:Tests.ABTesting@543295b0]" started-at="2021-06-12T17:12:42Z" name="testingAB" finished-at="2021-06-12T17:12:48Z" duration-ms="5832" status="PASS">
+        <test-method signature="testingAB()[pri:0, instance:Tests.AddRemoveElements@543295b0]" started-at="2021-06-14T23:36:45Z" name="testingAB" finished-at="2021-06-14T23:37:21Z" duration-ms="36017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testingAB -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.ABTesting@543295b0]" started-at="2021-06-12T17:12:48Z" name="tearDown" finished-at="2021-06-12T17:12:48Z" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AddRemoveElements@543295b0]" started-at="2021-06-14T23:37:21Z" name="tearDown" finished-at="2021-06-14T23:37:21Z" duration-ms="0" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=91.0.4472.101)
+  (Session info: chrome=91.0.4472.106)
 Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
-System info: host: 'Navpreets-MacBook-Pro.local', ip: 'fe80:0:0:0:40c:c281:daed:2ea6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '16.0.1'
+System info: host: 'Navpreets-MacBook-Pro.local', ip: 'fe80:0:0:0:1819:53ed:c039:b1e3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8cbcb06b3d57ee5fc9b28dab5e31fe7d, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/tt/wcdf2g7s5p5...}, goog:chromeOptions: {debuggerAddress: localhost:49698}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49698/devtoo..., se:cdpVersion: 91.0.4472.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8cbcb06b3d57ee5fc9b28dab5e31fe7d]]>
+Command: [979f0b66ce3204ad3b4e644b1116253f, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/tt/wcdf2g7s5p5...}, goog:chromeOptions: {debuggerAddress: localhost:52721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52721/devtoo..., se:cdpVersion: 91.0.4472.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 979f0b66ce3204ad3b4e644b1116253f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=91.0.4472.101)
+  (Session info: chrome=91.0.4472.106)
 Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
-System info: host: 'Navpreets-MacBook-Pro.local', ip: 'fe80:0:0:0:40c:c281:daed:2ea6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '16.0.1'
+System info: host: 'Navpreets-MacBook-Pro.local', ip: 'fe80:0:0:0:1819:53ed:c039:b1e3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8cbcb06b3d57ee5fc9b28dab5e31fe7d, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/tt/wcdf2g7s5p5...}, goog:chromeOptions: {debuggerAddress: localhost:49698}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49698/devtoo..., se:cdpVersion: 91.0.4472.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8cbcb06b3d57ee5fc9b28dab5e31fe7d
+Command: [979f0b66ce3204ad3b4e644b1116253f, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/tt/wcdf2g7s5p5...}, goog:chromeOptions: {debuggerAddress: localhost:52721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52721/devtoo..., se:cdpVersion: 91.0.4472.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 979f0b66ce3204ad3b4e644b1116253f
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -53,7 +53,7 @@ Session ID: 8cbcb06b3d57ee5fc9b28dab5e31fe7d
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:674)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
 	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:504)
-	at Tests.ABTesting.tearDown(ABTesting.java:53)
+	at Tests.AddRemoveElements.tearDown(AddRemoveElements.java:83)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -82,7 +82,7 @@ Session ID: 8cbcb06b3d57ee5fc9b28dab5e31fe7d
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Tests.ABTesting -->
+      </class> <!-- Tests.AddRemoveElements -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
